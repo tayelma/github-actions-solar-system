@@ -4,7 +4,7 @@ env:
 
   MONGO_URI: ‘mongodb+srv://supercluster.d83jj.mongodb.net/superData'
   MONGO_USERNAME: superuser
-  MONGO_PASSWORD: ${{ secrets.GITHUB_TOKEN}}
+  MONGO_PASSWORD: ${{ secrets.MONGO_PASSWORD }}
 
 
 on: 
